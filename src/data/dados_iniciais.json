@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Tecnologia",
+      "link": "https://www.twitch.tv/directory/game/Science%20%26%20Technology",
+      "cor": "#8d07e9",
+      "link_extra": {
+        "text": "Tópico ciência e tecnologia twitch",
+        "url": "https://www.twitch.tv/directory/game/Science%20%26%20Technology"
+      },
+      "videos": [
+        {
+          "titulo": "O que é HTML?#Dicionário",
+          "url": "https://youtu.be/4dQtz1PpY9A"
+        },
+        {
+          "titulo": "Jogando no Browser",
+          "url": "https://www.youtube.com/watch?v=MCWmQbbIFjc"
+        },
+        {
+          "titulo": "Monitor de 360Hz",
+          "url": "https://www.youtube.com/watch?v=Pf_k8Lg4dmo"
+        },
+        {
+          "titulo": "Rodando MAC OS no PC",
+          "url": "https://youtu.be/hy7PqrG-bhQ"
+        },
+        {
+          "titulo": "Ubuntu 20.04 LTS",
+          "url": "https://youtu.be/y-yr7LgiY1s"
+        },
+        {
+          "titulo": "10 projetos fáceis",
+          "url": "https://youtu.be/fYR9L2ZmodM"
+        },
+        {
+          "titulo": "Desafios JavaScript",
+          "url": "https://youtu.be/QVrrqgDhhu4"
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }        
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "#8d07e9",
+      "link_extra": {
+        "text": "Aprenda a criar seus jogos",
+        "url": "https://www.youtube.com/channel/UCXxkw9HWPVXVZsi1oTVvKCQ"
+      },
+      "videos": [
+        {
+          "titulo": "Melhores Momentos Super Mário",
+          "url": "https://youtu.be/oonSPjFApz4"
+        },
+        {
+          "titulo": "Review Ghost of Tsushima",
+          "url": "https://youtu.be/xgXRQZA7K1c"
+        },
+        {
+          "titulo": "Contratei um coach de valorant",
+          "url": "https://youtu.be/K4BaKFimlzo"
+        },
+        {
+          "titulo": "Me caguei no tiro ao alvo",
+          "url": "https://youtu.be/QKUD-RShGUE"
+        }, 
+        {
+          "titulo": "Cassiopeia florescer espiritual",
+          "url": "https://youtu.be/cd5qkxU0bWk"
+        }
+      ]
+    },
+    {
+      "titulo": "Aberturas de Anime",
+      "cor": "#8d07e9",
+      "link_extra": {
+        "text": "Assista animes",
+        "url": "https://goyabu.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Abertura 01 OnePiece",
+          "url": "https://youtu.be/54dp8ucsGG8?list=PL2R75x3ZazUDRZKsDU9-pi85DJ3WdGudI"
+        },
+        {
+          "titulo": "Blue Bird Naruto Shupuden",
+          "url": "https://youtu.be/mS8sLlavkqE"
+        },
+        {
+          "titulo": "Abertura 01 Demon Slayer",
+          "url": "https://youtu.be/pmanD_s7G3U"
+        },
+        {
+          "titulo": "Ohayou",
+          "url": "https://youtu.be/tF4faMbs5oQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
