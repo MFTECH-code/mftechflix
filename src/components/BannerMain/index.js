@@ -27,7 +27,7 @@ export default function BannerMain({
           </ContentAreaContainer.Title>
 
           <ContentAreaContainer.Description>
-            {videoDescription}
+            Conheça o canal do casal de programadores mais amado do Brasil.
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>
 
