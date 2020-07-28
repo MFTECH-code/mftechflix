@@ -2,14 +2,15 @@ import React from 'react'
 import Logo from '../../assets/img/Logo.png'
 import './Menu.css'
 import Button from './components/ButtonLink';
+import { Link } from 'react-router-dom' // Para que funcione o nosso SPA devemos importar o Link
 
 function Menu() {
     return (
         <nav className = "Menu">
-            <a href = "/" >
+            <Link to = "/" >
             <img className = "Logo" src = {Logo} alt = "MFtechFlix logo" />
-            </a>
-            <Button as = "a" className = "ButtonLink" href = "/">
+            </Link>
+            <Button as = {Link} className = "ButtonLink" to = "/cadastro/video">
                 Novo Video
             </Button>
         </nav>

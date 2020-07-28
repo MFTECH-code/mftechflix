@@ -39,3 +39,9 @@ a {
     background: var(--purple);
     border-radius: 20px;
 }
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import Menu from './components/Menu'
-import Carousel from './components/Carousel'
-import Footer from './components/Footer'
-import BannerMain from './components/BannerMain'
-import dadosIniciais from './data/dados_iniciais.json'
+import Menu from '../../components/Menu'
+import Carousel from '../../components/Carousel'
+import Footer from '../../components/Footer'
+import BannerMain from '../../components/BannerMain'
+import dadosIniciais from '../../data//dados_iniciais.json'
 
 
 
-function App() {
+function Home() {
   return ( 
     // JSX -> Java Script XML
     <div style = {{ background: "#141414" }}>
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
