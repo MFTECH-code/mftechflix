@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Imersão React Alura
+## Dia 01
+ - __Como criar um React APP__  
+Primeiramente você deve ter o node instalado no seu computador, para saber se ele está basta rodar o seguinte comando no terminal: __node -v__.     
+Se o aparecer a versão do node quer dizer que ele está devidamente instalado, caso não esteja instalado, instale a versão LTS do node no seguinte link: [Node](https://nodejs.org/en/).    
+Já com o node instalado poderemos prosseguir para instalação do React, basta digitar a seguinte linha de comando no terminal: __npx start-react-app nome-do-app__. 
+Observação: Execute essa linha de comando dentro da pasta onde você deseja criar seu app. Para poder rodar o app agora basta rodar o seguinte comando: __npm start__.  
+Pronto agora podemos começar a botar a mão na massa :heavy_check_mark:
 
-## Available Scripts
+ - __Organizando a pasta do nosso projeto__    
+Quando abrirmos nosso projeto no editor de código, veremos muitos arquivos, os arquivos que iremos usar estão na pasta __src__, note que existem vários arquivos lá também, como nós não usaremos todos eles deixe apenas os seguintes arquivos: __App.js, index.css, index.js__. Note que após vc deletar os outros arquivos a sua aplicação irá dar alguns erros, isso acontece porque estamos usando funcionalidades desses outros arquivos que já não existem mais nos nossos arquivos que ainda estão na nossa pasta src. Agora criaremos uma pasta para guardar os nossos assets, e uma outra para guardar os nossos components.
 
-In the project directory, you can run:
+ - __Criando components__   
+ Uma das vantagens do React são os components, com eles a gente consegue reaproveitar código, assim economizamos tempo. Para criar um component nós iremos ter que criar uma pasta para ele em components e dentro da pasta dele iremos criar um arquivo chamado __index.js__ a primeira coisa que devemos fazer é importar o react, então na primeira linha devemos digitar o seguinte comando: __import React from 'react'__. Agora precisamos criar uma função com o nome do nosso componente e dentro dessa função iremos dar um return e vamos abrir e fechar parenteses, dentro dos parenteses irá ficar o nosso JSX. Agora precisamos exportar esse nosso componente parar que possamos utilizar ele no nosso App.js, para isso digite o seguinte comando na última linha do seu arquivo: __export default Menu__, feito isso iremos para o nosso arquivo App.js e importar o nosso component digitando a seguinte linha: __import Component from './components/Component'__. Pronto agora é só utilizar o component criado :smiley:
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ - __Utilizando o styled components__   
+ Primeiramente devemos instalar o styled components escrevendo o seguinte comando no terminal: __npm install styled-components__, para melhorar nossa experiência com essa biblioteca devemos baixar uma extensão chamada __vscode-styled-components__. Agora podemos usar o styled components em nossos components, primeiro devemos importar o style components com a seguinte linha de comando: __import styled from "styled-components"__, vamos usar como exemplo um botão, primeiro criamos uma constante chamada __Button__ e ela irá receber o __styled.button ``__, pronto criamos um botão, para estilizar usaremos o código __CSS__ dentro da template string. Pronto aprendemos como usar styled components :sparkles:
